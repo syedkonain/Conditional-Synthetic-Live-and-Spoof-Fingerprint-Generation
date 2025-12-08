@@ -111,8 +111,5 @@ Body Double
 python gen_db3.py --outdir Db3 --network /home/DB3.pkl --num-impressions 3 --num-images 50 --class 1 --name live
 
 
-These resources are available upon request; interested researchers should email syedkonainabas@gmail.com to obtain access.
-
-
 **Acknowledgments:**
 We utilized the official implementations of StyleGAN2-ADA (https://github.com/NVlabs/stylegan2-ada-pytorch), StyleGAN3 (https://github.com/NVlabs/stylegan3), and CycleGAN https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.
