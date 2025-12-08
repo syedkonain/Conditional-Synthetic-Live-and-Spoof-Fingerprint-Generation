@@ -70,7 +70,7 @@ python gen_db2.py --outdir Db2 --network /home/DB2.pkl --num-impressions 3 --num
 
 2-Install the required dependencies.
 
-3-Download the official CycleGAN repository inside the same StyleGAN2-ADA directory.
+3-Download the official CycleGAN repository inside the same StyleGAN3 directory.
 
 4-Install the CycleGAN dependencies.
 
