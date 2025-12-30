@@ -124,7 +124,7 @@ If you use this dataset, pretrained models, or code in your research, please cit
   journal={arXiv preprint arXiv:2510.17035},
   year={2025}
 }
-
+```
 ## Acknowledgments
 
 We utilized the official implementations of StyleGAN2-ADA (https://github.com/NVlabs/stylegan2-ada-pytorch), StyleGAN3 (https://github.com/NVlabs/stylegan3), and CycleGAN https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.
