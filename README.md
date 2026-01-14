@@ -118,11 +118,19 @@ python gen_db3.py \
 If you use this dataset, pretrained models, or code in your research, please cite the following paper:
 
 ```bibtex
-@article{abbas2025conditional,
-  title={Conditional Synthetic Live and Spoof Fingerprint Generation},
-  author={Abbas, Syed Konain and Purnapatra, Sandip and Murshed, MG and Miller-Lynch, Conor and Igene, Lambert and Dey, Soumyabrata and Schuckers, Stephanie and Hussain, Faraz},
-  journal={arXiv preprint arXiv:2510.17035},
-  year={2025}
+@article{https://doi.org/10.1049/bme2/7736489,
+author = {Abbas, Syed Konain and Purnapatra, Sandip and Sarwar Murshed, M. G. and Miller-Lynch, Conor and Igene, Lambert and Dey, Soumyabrata and Schuckers, Stephanie and Hussain, Faraz},
+title = {Conditional Synthetic Live and Spoof Fingerprint Generation},
+journal = {IET Biometrics},
+volume = {2026},
+number = {1},
+pages = {7736489},
+keywords = {conditional GANs, presentation attack detection, synthetic fingerprint generation, synthetic spoof fingerprint generation},
+doi = {https://doi.org/10.1049/bme2/7736489},
+url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/bme2/7736489},
+eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/bme2/7736489},
+abstract = {Large fingerprint datasets, while important for training and evaluation, are time-consuming and expensive to collect and require strict privacy measures. Researchers are exploring the use of synthetic fingerprint data to address these issues. This article presents a novel approach for generating synthetic fingerprint images (both spoof and live), addressing concerns related to privacy, cost, and accessibility in biometric data collection. Our approach utilizes conditional StyleGAN2-ADA and StyleGAN3 architectures to produce high-resolution synthetic live fingerprints, conditioned on specific finger identities (thumb through little finger). Additionally, we employ CycleGANs to translate these into realistic spoof fingerprints, simulating a variety of presentation attack materials (e.g., EcoFlex, Play-Doh). These synthetic spoof fingerprints are crucial for developing robust spoof detection systems. Through these generative models, we created two synthetic datasets (DB2 and DB3), each containing 1500 fingerprint images of all 10 fingers with multiple impressions per finger, and including corresponding spoofs in eight material types. The results indicate robust performance: our StyleGAN3 model achieves a Fréchet inception distance (FID) as low as 5, and the generated fingerprints achieve a true acceptance rate (TAR) of 99.47\% at a 0.01\% false acceptance rate (FAR). The StyleGAN2-ADA model achieved a TAR of 98.67\% at the same 0.01\% FAR. We assess fingerprint quality using standard metrics (NFIQ2, MINDTCT), and notably, matching experiments confirm strong privacy preservation, with no significant evidence of identity leakage, confirming the strong privacy-preserving properties of our synthetic datasets.},
+year = {2026}
 }
 ```
 ## Acknowledgments
