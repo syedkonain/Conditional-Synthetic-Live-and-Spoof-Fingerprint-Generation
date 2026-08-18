@@ -56,7 +56,7 @@ def make_transform(translate, angle):
 @click.option('--network', 'network_pkl', help='Path to StyleGAN3 network pickle file', required=True)
 @click.option('--outdir', help='Output directory for images', type=str, required=True)
 @click.option('--class', 'class_idx', type=int, help='Class label for conditional models')
-@click.option('--num-images', type=int, default=50, help='Number of unique fingerprint to generate')
+@click.option('--num-images', type=int, default=50, help='Number of unique fingerprints to generate')
 @click.option('--num-impressions', type=int, default=3, help='Number of impressions per image')
 @click.option('--name', type=str, required=False, help='Spoof type name (e.g., sil, gel). Runs test.py if provided.')
 @click.option('--noise-mode', type=click.Choice(['const', 'random', 'none']), default='random', show_default=True)
