@@ -43,7 +43,7 @@ https://drive.google.com/drive/folders/1cTsB4OBuWT5M9M3mLV1GXHI3ti3QR1RX
 | `--class` | Select the desired finger class (1–10) |
 | `--name` | Choose `live` or a spoof material |
 | `--num-impressions` | Number of impressions per fingerprint |
-| `--num-images` | Total number of fingerprints to generate |
+| `--num-images` | Number of unique fingerprint to generate |
 | `--seeds` | Specify seed range for controlled generation |
 
 #### Spoof Material Names
@@ -89,7 +89,7 @@ python gen_db2.py \
 | `--class` | Select the desired finger class (1–10) |
 | `--name` | Choose `live` or a spoof material |
 | `--num-impressions` | Number of impressions per fingerprint |
-| `--num-images` | Total number of fingerprints to generate |
+| `--num-images` | Number of unique fingerprint to generate |
 | `--seeds` | Specify seed range for controlled generation |
 
 #### Spoof Material Names
