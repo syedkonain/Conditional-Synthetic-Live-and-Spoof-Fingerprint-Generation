@@ -79,7 +79,7 @@ def generate_impressions(img, num_variations=5):
 @click.option('--network', 'network_pkl', required=True, help='Network pickle filename')
 @click.option('--outdir', required=True, type=str, help='Output directory for images')
 @click.option('--class', 'class_idx', type=int, help='Class label for conditional model')
-@click.option('--num-images', type=int, default=50, help='Number of unique fingerprint to generate')
+@click.option('--num-images', type=int, default=50, help='Number of unique fingerprints to generate')
 @click.option('--num-impressions', type=int, default=3, help='Number of impressions per image')
 @click.option('--name', type=str, required=False, help='Spoof type name (e.g., gel, sil)')
 @click.option('--noise-mode', type=click.Choice(['const', 'random', 'none']), default='random', show_default=True)
